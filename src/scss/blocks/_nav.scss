@@ -11,11 +11,11 @@
   align-items: center;
   gap: 24px;
   a {
-    color: #181818;
+    color: var(--Dark);
   }
   a:hover,
   a.active {
-    color: #35aff4;
+    color: var(--Blue);
   }
 }
 
@@ -23,4 +23,3 @@
   display: flex;
   gap: 12px;
 }
-

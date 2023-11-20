@@ -1,3 +1,3 @@
-import mobileNav from "./modules/mobile-nav.js";
+// import mobileNav from "./modules/mobile-nav.js";
 
-mobileNav();
+// mobileNav();
