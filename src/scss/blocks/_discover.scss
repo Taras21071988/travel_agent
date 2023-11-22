@@ -11,11 +11,23 @@
 .discorev__desc {
 }
 .discover__title {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 10;
+  &::after {
+    content: "";
+    background-image: url(./../img/discover/underline.svg);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 268px;
+    height: 24px;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
 }
-
 .discover__text {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .discover__form {
