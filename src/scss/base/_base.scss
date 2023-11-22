@@ -6,7 +6,24 @@ body {
   background-color: var(--page-bg);
   color: var(--text-color);
   font-family: var(--font-main);
-
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.title-1 {
+  color: var(--Dark);
+  font-size: 72px;
+
+  font-weight: 700;
+  line-height: normal;
+}
+.text {
+  color: var(--Grey);
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 150%;
+  
+  p + p {
+    margin-top: 1em;
+  }
 }
