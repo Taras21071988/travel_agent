@@ -19,6 +19,9 @@ const autoCompleteJS = new autoComplete({
       },
     },
   },
+  resultList: {
+    maxResults: 10,
+  },
 });
 
 //
