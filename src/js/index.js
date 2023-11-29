@@ -1,6 +1,7 @@
 import autoComplete from "@tarekraafat/autocomplete.js";
 import countryList from "./helpers/countryList";
 
+
 const autoCompleteJS = new autoComplete({
   selector: "#autoCompleteCountry",
   placeHolder: "e.g Bali, Indonesia",
