@@ -27,6 +27,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "@easepick/bundle": "^1.2.1",
     "@tarekraafat/autocomplete.js": "^10.2.7",
     "air-datepicker": "^3.4.0",
     "gulp-cli": "^2.3.0"
