@@ -1,0 +1,11 @@
+.scroll-down {
+  position: relative;display: inline-block;
+}
+.scroll-down__text {
+}
+.scroll-down__icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
