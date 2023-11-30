@@ -8,8 +8,7 @@
   gap: 80px;
   align-items: center;
 }
-.discorev__desc {
-}
+
 .discover__title {
   margin-bottom: 24px;
   position: relative;
@@ -30,9 +29,12 @@
   margin-bottom: 40px;
 }
 
-.discover__form {
-}
 .discorev__picture {
+  position: relative;
 }
-.discorev__picture-img {
+
+.discorev__picture-hint {
+  position: absolute;
+  top: 90px;
+  left: 40px;
 }
