@@ -1,0 +1,16 @@
+.partners {
+  padding: 60px 0;
+}
+
+.partners__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.partners__content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}

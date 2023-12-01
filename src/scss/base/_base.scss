@@ -17,6 +17,13 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.title-4 {
+  color: var(--Grey);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 33.6px */
+}
 .text {
   color: var(--Grey);
   font-size: 18px;
