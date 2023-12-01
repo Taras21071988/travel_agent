@@ -1,0 +1,25 @@
+.popular {
+  padding: 60px 0;
+}
+
+.popular__top {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.top__title {
+  color: var(--Dark);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.popular__controls {
+  display: flex;
+  gap: 15px;
+}
+.popular__content {
+}
