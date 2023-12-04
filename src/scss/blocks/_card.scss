@@ -1,0 +1,27 @@
+.card {
+  max-width: 304px;
+}
+.card__img {
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  .popular__card-img {
+    width: 100%;
+  }
+}
+.card__title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.card__title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+.card__rating {
+}
+.card__price {
+}
