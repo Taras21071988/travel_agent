@@ -3,7 +3,6 @@ import picker from "./modules/picker";
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
-// init Swiper:
 const swiper = new Swiper(".swiper", {
   loop: true,
   slidesPerView: 4,
