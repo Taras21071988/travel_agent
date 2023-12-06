@@ -2,10 +2,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+  overflow: hidden;
 }
 .testimonials__col {
   display: grid;
   gap: 32px;
+
 
   animation: slideUp 10s linear infinite;
 }
