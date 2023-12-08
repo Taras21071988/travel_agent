@@ -1,14 +1,23 @@
 .footer {
-	background-color: rgb(62, 62, 62);
-	padding: 50px 0;
-	font-size: 32px;
-    color: #fff;
+  background-color: var(--Dark);
+  color: var(--White);
+  padding: 80px 0;
+  a {
+    color: var(--White);
+  }
+}
 
-	h1 {
-		font-size: 32px;
-	}
-
-	@media (max-width: 1200px) {
-		font-size: 26px;
-	}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__copyright {
+  display: grid;
+  gap: 24px;
+  max-width: 300px;
+}
+.footer__nav {
+  display: flex;
+  gap: 40px;
 }
