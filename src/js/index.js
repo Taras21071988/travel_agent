@@ -1,25 +1,12 @@
 import autoCompleteFunc from "./modules/autoComplete";
 import picker from "./modules/picker";
-import Swiper from "swiper/bundle";
-import "swiper/css/bundle";
-
-const swiper = new Swiper(".swiper", {
-  loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  slidesPerView: 4,
-  spaceBetween: 32,
-  navigation: {
-    nextEl: "#sliderNext",
-    prevEl: "#sliderPrev",
-  },
-});
+import reveal from "./modules/scrollreveal.js";
+import swiper from "./modules/swiper.js";
 
 autoCompleteFunc();
 picker;
-
+reveal;
+swiper;
 // import mobileNav from "./modules/mobile-nav.js";
 
 // mobileNav();
