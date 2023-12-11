@@ -1,5 +1,7 @@
 .partners {
+  position: relative;
   padding: 60px 0;
+  z-index: -1;
 }
 
 .partners__row {
