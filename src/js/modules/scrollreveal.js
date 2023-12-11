@@ -8,6 +8,14 @@ const reveal = ScrollReveal({
 reveal.reveal(".discover__title", {
   origin: "left",
 });
+reveal.reveal(" #sliderPrev", {
+  delay: 1000,
+  origin: "right",
+});
+reveal.reveal(" #sliderNext", {
+  delay: 1000,
+  origin: "left",
+});
 reveal.reveal(".discover__text", {
   origin: "right",
 });
@@ -15,7 +23,7 @@ reveal.reveal(".discover__form", {
   origin: "bottom",
   delay: 1200,
 });
-reveal.reveal(".header", {
+reveal.reveal(".header, .popular__title", {
   origin: "top",
 });
 reveal.reveal(".hint-discover", {
@@ -30,6 +38,8 @@ reveal.reveal(".scroll-down", {
   scale: 0,
   delay: 500,
 });
+
 reveal.reveal(".partners", { delay: 2000 });
+reveal.reveal(".container-right", { distance: "0px", opacity: 0 });
 
 export default reveal;
