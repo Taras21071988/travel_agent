@@ -1,12 +1,10 @@
 <div class="card-review">
   <div class="card-review__rating">
+    @@for (var i = 0; i < context.stars; i++) {
     <img src="./img/testimonials/star.svg" alt="rating star" />
-    <img src="./img/testimonials/star.svg" alt="rating star" />
-    <img src="./img/testimonials/star.svg" alt="rating star" />
-    <img src="./img/testimonials/star.svg" alt="rating star" />
-    <img src="./img/testimonials/star.svg" alt="rating star" />
-
-    @@stars
+    } @@if (context.stars < 5){ @@for (var i = 0; i < 5 - context.stars; i++) {
+    <img src="./img/testimonials/star-off.svg" alt="rating star" />
+    } }
   </div>
   <p class="card-review__text">@@text</p>
 
