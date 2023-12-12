@@ -42,4 +42,13 @@ reveal.reveal(".scroll-down", {
 reveal.reveal(".partners", { delay: 2000 });
 reveal.reveal(".container-right", { distance: "0px", opacity: 0 });
 
+reveal.reveal(".footer__copyright", {
+  origin: "bottom",
+  delay: 50,
+});
+reveal.reveal(".footer-nav", {
+  origin: "bottom",
+  delay: 300,
+});
+
 export default reveal;
