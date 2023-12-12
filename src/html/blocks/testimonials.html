@@ -1,7 +1,9 @@
 <section class="testimonials">
-    <div class="container">
-        <div class="testimonials__grid">
-            <div class="testimonials__col">
+  <div class="container">
+    <div class="testimonials__grid">
+      @@loop('./templates/card-review.html','./data/testimonials.json')
+
+      <!-- <div class="testimonials__col">
                 @@include('./testimonials/card.html')
                 @@include('./testimonials/card.html')
                 @@include('./testimonials/card.html')
@@ -18,7 +20,7 @@
                 @@include('./testimonials/card.html')
                 @@include('./testimonials/card.html')
                 @@include('./testimonials/card.html')
-            </div>
-        </div>
+            </div> -->
     </div>
+  </div>
 </section>
