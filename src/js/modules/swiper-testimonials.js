@@ -2,11 +2,17 @@ import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
 const swiperVert = new Swiper("#testimonials-col-1", {
+  loop: true,
   direction: "vertical",
-  slidesPerView: 4,
+  slidesPerView: "auto",
   spaceBetween: 32,
+  grabCursor: true,
+  ally: false,
+  freeMode: true,
+  speed: 8000,
   autoplay: {
-    delay: 1500,
+    enabled: true,
+    delay: 0.5,
     disableOnInteraction: false,
   },
 });
