@@ -1,7 +1,15 @@
 <section class="testimonials">
   <div class="container">
     <div class="testimonials__grid">
-      @@loop('./templates/card-review.html','./data/testimonials.json')
+      <div class="testimonials__col">
+        @@loop('./templates/card-review.html','./data/testimonials-col-1.json')
+      </div>
+      <div class="testimonials__col">
+        @@loop('./templates/card-review.html','./data/testimonials-col-2.json')
+      </div>
+      <div class="testimonials__col">
+        @@loop('./templates/card-review.html','./data/testimonials-col-3.json')
+      </div>
 
       <!-- <div class="testimonials__col">
                 @@include('./testimonials/card.html')
