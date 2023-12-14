@@ -1,7 +1,7 @@
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper("#swiper-popular", {
   loop: true,
   autoplay: {
     delay: 2500,
