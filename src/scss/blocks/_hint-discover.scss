@@ -20,7 +20,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
 
   display: flex;
   justify-content: space-between;
@@ -33,7 +33,7 @@
   gap: 4px;
   font-size: 14px;
   font-weight: 500;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
   &::before {
     content: "";
     width: 17px;
