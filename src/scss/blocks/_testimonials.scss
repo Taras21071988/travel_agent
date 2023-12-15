@@ -4,19 +4,19 @@
   gap: 32px;
   // overflow: hidden;
 }
-.testimonials__col {
-  &:nth-child(2) {
-    padding-top: 92px;
-  }
-  &:nth-child(3) {
-    padding-top: 24px;
-  }
-}
+// .testimonials__col {
+//   &:nth-child(2) {
+//     // padding-top: 92px;
+//   }
+//   &:nth-child(3) {
+//     // padding-top: 24px;
+//   }
+// }
 .testimonials__swiper {
   height: 900px;
   .swiper-slide {
     padding: 0 10px;
-    height: 322px;
+    height: 322px !important;
   }
 }
 .smooth-transition {
