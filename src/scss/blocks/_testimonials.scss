@@ -5,8 +5,6 @@
   // overflow: hidden;
 }
 .testimonials__col {
-
-
   &:nth-child(2) {
     padding-top: 92px;
   }
@@ -17,6 +15,7 @@
 .testimonials__swiper {
   height: 900px;
   .swiper-slide {
+    padding: 0 10px;
     height: 322px;
   }
 }
