@@ -9,12 +9,13 @@ const swiperVert = new Swiper("#testimonials-col-1", {
   grabCursor: true,
   ally: false,
   freeMode: true,
-  speed: 8000,
+  speed: 3000,
   autoplay: {
     enabled: true,
     delay: 0.5,
     disableOnInteraction: false,
   },
 });
+
 
 export default swiperVert;

@@ -8,7 +8,7 @@ autoCompleteFunc();
 picker;
 reveal;
 swiper;
-// swiperVert;
+swiperVert;
 // import mobileNav from "./modules/mobile-nav.js";
 
 // mobileNav();
