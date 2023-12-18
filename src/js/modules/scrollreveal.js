@@ -40,7 +40,7 @@ reveal.reveal(".scroll-down", {
 });
 
 reveal.reveal(".partners", { delay: 2000 });
-reveal.reveal(".container-right", { distance: "0px", opacity: 0 });
+reveal.reveal(".container-right", { distance: "0px", opacity: 0.5 });
 
 reveal.reveal(".footer__copyright", {
   origin: "bottom",
