@@ -27,7 +27,7 @@
   span {
     font-weight: 500;
   }
-  &.label-date{
+  &.label-date {
     background-image: url(./../img/icons/calendar.svg);
     background-position: 0 0;
     background-size: auto;
@@ -49,5 +49,9 @@
     line-height: normal;
   }
 }
-
-
+.form__btn {
+  transition: filter 0.4s ease-in-out;
+  &:hover {
+    filter: brightness(110%);
+  }
+}
