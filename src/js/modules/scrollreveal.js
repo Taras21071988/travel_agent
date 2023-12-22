@@ -23,9 +23,9 @@ reveal.reveal(".discover__form", {
   origin: "bottom",
   delay: 1200,
 });
-reveal.reveal(".header, .popular__title", {
-  origin: "top",
-});
+// reveal.reveal(".header, .popular__title", {
+//   origin: "top",
+// });
 reveal.reveal(".hint-discover", {
   origin: "top",
   distance: "80px",
