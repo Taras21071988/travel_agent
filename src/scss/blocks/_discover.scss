@@ -24,9 +24,13 @@
     background-repeat: no-repeat;
     z-index: -1;
   }
+  @include mediaTablet {
+    font-size: 50px;
+  }
 }
 .discover__text {
   margin-bottom: 40px;
+
 }
 
 .discorev__picture {
@@ -38,9 +42,25 @@
   top: 90px;
   left: 40px;
   z-index: 10;
+
+  @include mediaLaptop {
+    top: 40px;
+    left: 20px;
+  }
+  @include mediaTablet {
+    top: 20px;
+    left: 10px;
+  }
 }
 .discorev__picture-scroll {
   position: absolute;
   right: 15px;
   bottom: 20px;
+  @include mediaLaptop {
+    right: 0;
+    bottom: 0;
+  }
+  @include mediaTablet {
+    max-width: 80px;
+  }
 }

@@ -16,6 +16,9 @@ body {
 
   font-weight: 700;
   line-height: normal;
+  @include mediaTablet {
+    font-size: 50px;
+  }
 }
 .title-4 {
   color: var(--Grey);
@@ -33,6 +36,9 @@ body {
   p + p {
     margin-top: 1em;
   }
+  @include mediaTablet {
+    font-size: 12px;
+  }
 }
 .accent-blue {
   color: var(--Blue);
@@ -49,6 +55,9 @@ body {
   font-style: normal;
   font-weight: 450;
   line-height: 150%;
+  @include mediaTablet {
+    font-size: 12px;
+  }
 }
 .rating {
   display: flex;

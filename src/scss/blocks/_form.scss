@@ -8,6 +8,11 @@
   border-radius: 16px;
   border: 1px solid rgba(144, 144, 144, 0.3);
   background: var(--White);
+  @include mediaTablet {
+    align-items: normal;
+    padding: 8px 12px;
+    gap: 12px;
+  }
 }
 .form__devider {
   height: 24px;
@@ -24,6 +29,12 @@
   background-size: auto;
   background-repeat: no-repeat;
 
+  @include mediaTablet {
+    gap: 4px;
+    span {
+      font-size: 12px;
+    }
+  }
   span {
     font-weight: 500;
   }
@@ -47,6 +58,12 @@
     font-style: normal;
     font-weight: 450;
     line-height: normal;
+  }
+  @include mediaTablet {
+    font-size: 8px;
+    &::placeholder {
+      font-size: 8px;
+    }
   }
 }
 .form__btn {
